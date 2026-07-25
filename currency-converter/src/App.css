@@ -1,0 +1,42 @@
+/* Center the box on the screen */
+body {
+  font-family: sans-serif;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Card container */
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 300px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Space out inputs */
+.field {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input, select {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box; /* Ensures padding doesn't push width outside box */
+}
+
+.output {
+  margin-top: 15px;
+  font-size: 1.1rem;
+  text-align: center;
+}
